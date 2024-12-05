@@ -1,0 +1,69 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Menggunakan font modern */
+    background-color: #f4f7fa; /* Latar belakang yang lembut */
+    color: #333; /* Warna teks yang ramah mata */
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; /* Warna latar belakang tabel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+    border-radius: 8px; /* Sudut membulat */
+    overflow: hidden; /* Agar radius bekerja */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Warna border yang lembut */
+}
+
+th {
+    background-color: #007bff; /* Biru cerah untuk header tabel */
+    color: #fff; /* Warna teks header */
+    text-transform: uppercase; /* Teks kapital */
+    letter-spacing: 1px; /* Spasi antar huruf */
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Animasi transisi warna */
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Warna alternatif untuk baris */
+}
+
+tr:hover td {
+    background-color: #e9f5ff; /* Efek hover pada baris tabel */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transisi halus untuk hover */
+}
+
+a:hover {
+    color: #0056b3; /* Warna lebih gelap saat hover */
+    text-decoration: underline; /* Menambahkan garis bawah */
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+table {
+    animation: fadeIn 0.5s ease-in-out; /* Animasi fade-in untuk tabel */
+}
