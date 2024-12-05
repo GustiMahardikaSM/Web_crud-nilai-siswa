@@ -18,4 +18,4 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini:
 ### 1. Unduh Repositori ini
 ### 2. Impor database sql ke mysql
 ### 3. seluruh file crud-siswa dimasukkan ke folder mysql/htcdocs/crud-siswa
-### 4. Jalankan di http://localhost/Web_crud-nilai-siswa
+### 4. Buka di (http://localhost/crud_nilai_siswa/index.php)
